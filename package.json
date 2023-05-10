@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3"
+  },
+  "name": "portfolio-2.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amsudekum/Portfolio-2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amsudekum/Portfolio-2.0/issues"
+  },
+  "homepage": "https://github.com/amsudekum/Portfolio-2.0#readme",
+  "description": ""
+}
