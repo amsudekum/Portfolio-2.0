@@ -25,5 +25,8 @@
     "url": "https://github.com/amsudekum/Portfolio-2.0/issues"
   },
   "homepage": "https://github.com/amsudekum/Portfolio-2.0#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
 }
