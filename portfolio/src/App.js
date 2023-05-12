@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route, IndexRoute  } from 'react-router-dom'  
 import About from "./components/about";
 import Contact from "./components/contact";
 import Navbar from "./components/navbar";
@@ -8,14 +9,17 @@ import './App.css';
 
 const App = () => {
   return (
-    <main>
-      <Header>  
+    <Router>
+      <Header>
         <Navbar />
       </Header>
-      <About />
-      <Projects />
-      <Contact />
-    </main>
+      <Routes>
+        
+        <Route path="/" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </Router>
   );
 }
 

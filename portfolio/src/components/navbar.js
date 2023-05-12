@@ -1,18 +1,13 @@
 import React from 'react'; 
+import { Link } from 'react-router-dom';
 
 const navBar = () => {
     return (
        <div>
-              <ul>
-            <li><a href="#aboutme">.About</a></li>
-            <li><a href="#contactme">Contact.</a></li>
-        </ul>
-        
         <ul>
-            <li><a href="#mywork">.Work</a></li>
-            <li><a href="">Resume.</a></li>
+            <li><Link to="/">.Home</Link></li>
+            <li><Link to="/contact">.Contact</Link></li>
         </ul>
-    
        </div>
       
     );

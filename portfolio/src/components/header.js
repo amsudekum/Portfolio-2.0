@@ -8,7 +8,7 @@ const Header = ({ children }) => {
             <h2>.ASHLEY SUDEKUM.</h2>
         <ul>
             <li><a href="#mywork">.Work</a></li>
-            <li><a href="">Resume.</a></li>
+            <li><a href="#mywork">Resume.</a></li>
         </ul>
         </header>
     )
