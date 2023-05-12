@@ -1,18 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Header.css';
 
 function Header(){
     return(
     <div>
-        <ul>
+        {/* <ul>
             <li><a href="#aboutme">.About</a></li>
             <li><a href="#contactme">Contact.</a></li>
-        </ul>
+        </ul> */}
         <h2>.ASHLEY SUDEKUM.</h2>
-        <ul>
+        {/* <ul>
             <li><a href="#mywork">.Work</a></li>
             <li><a href="">Resume.</a></li>
-        </ul>
+        </ul> */}
     </div>
     )
-}
+};
+
+export default Header;
