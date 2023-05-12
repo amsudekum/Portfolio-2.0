@@ -4,7 +4,9 @@ import Contact from "./components/contact";
 import Navbar from "./components/navbar";
 import Projects from "./components/projects";
 import Header from "./components/header";
-export default function App() {
+import './App.css';
+
+const App = () => {
   return (
     <main>
       <Header>  
@@ -16,3 +18,5 @@ export default function App() {
     </main>
   );
 }
+
+export default App;
